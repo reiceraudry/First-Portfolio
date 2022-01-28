@@ -1,0 +1,96 @@
+/***** UNIVERSAL *****/
+
+.font1 {
+    font-family: 'Gudea', sans-serif;
+}
+
+.font2 {
+    font-family: 'Josefine Sans', sans-serif;
+}
+
+.font3 {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.font4 {
+    font-family: 'Biryani', sans-serif;
+}
+
+html {
+    background-color: #88A0A9;
+    color: #e7ecee;
+    font-size: 16px;
+    margin: 0 auto;
+
+    /*border: 1px dashed white;*/
+}
+
+a {
+    color: #293033;
+    padding: 1em;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/***** BODY *****/
+
+body {
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 1500px;
+
+    /*border: 1px dotted white;*/
+}
+
+/***** NAV *****/
+
+.fixed-nav {
+    align-items: center;
+    display: flex; /*FLEX BOX*/
+    flex-direction: row;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+.left-nav {
+    flex-grow: 1;
+}
+
+.left-nav img {
+    max-height: 150px;
+}
+
+.right-nav {
+    
+}
+
+/***** BANNER *****/
+
+.banner {
+    display: flex;
+    align-items: center;
+    min-height: 350px;
+    /*border: 1px dotted white;*/
+}
+
+/***** ABOUT ME *****/
+
+.about-me {
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+    justify-content: center;
+    /*border: 1px dotted white;*/
+}
+
+/***** FOOTER *****/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    /*border: 1px dotted white;*/
+}
